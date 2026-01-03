@@ -1,0 +1,15 @@
+@layer components {
+  /* This matches your exact requested container style */
+  .rsa-card-container {
+    @apply relative bg-slate-900/80 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-2xl h-[550px] flex flex-col;
+  }
+
+  .rsa-field {
+    @apply bg-slate-950/50 border border-slate-500/30 rounded-xl p-4 text-slate-200 placeholder:text-slate-700 focus:outline-none focus:ring-1 transition text-sm;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #475569; }
+}
